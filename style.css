@@ -1,0 +1,138 @@
+/* Styling the Body element i.e. Color,
+		Font, Alignment */
+body {
+	background-color: #e3f8ff;
+	font-family: Verdana;
+	text-align: center;
+}
+
+h1 {
+	text-shadow: 5px 5px 5px #303030;
+	font-weight: 400;
+	font-size: 40px;
+
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+	background-color: rgb(104, 157, 243);
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 30px 20px;
+	box-shadow: 2px 5px 10px rgba(255, 255, 255, 0.975);
+	border-radius: 10px;
+}
+
+/* Styling form-control Class */
+.form-control {
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* Styling form-control input,
+		select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+	border: 1px solid rgb(127, 217, 47);
+	border-radius: 5px;
+	font-family: inherit;
+	padding: 10px;
+	display: block;
+	width: 95%;
+}
+
+/* Styling form-control Radio
+		button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+	display: inline-block;
+	width: auto;
+}
+
+/* Styling Button */
+button {
+	background-color: #007b42;
+	border: 1px solid rgb(56, 245, 14);
+	border-radius: 5px;
+	font-family: inherit;
+	font-size: 31px;
+	display: block;
+	width: 40%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 30%;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+button:hover{
+	background-color: #0af386;
+}
+
+.pop-up {
+	visibility: hidden;
+	color: rgb(0, 255, 38);
+	background: #1247c5;
+	width: 60%;
+	height: 20%;
+	margin: auto;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	border-radius: 10px;
+	font-size: 17px;
+	line-height: 1.5;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+span {
+	color: red;
+	font-size: 2rem;
+	line-height: 2;
+}
+
+.show {
+	visibility: visible;
+}
+#toasts {
+	background: rgb(236, 75, 75);
+	color: red;
+  }
+
+.toast {
+	border: 1px solid whitesmoke;
+	border-radius: 10px;
+	background: rgb(54, 224, 31);
+	color: rgb(53, 69, 243);
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60vw;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	padding: 1rem 2rem;
+	margin: 0.5rem;
+	box-shadow:
+		3px 3px 7px rgb(255, 0, 0);
+	/* margin: auto; */
+}
+
+
+strong {
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font: 1.4em sans-serif;
+	font-weight: 600;
+
+}
